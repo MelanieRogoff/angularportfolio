@@ -1,0 +1,18 @@
+a {
+    color: white;
+}
+.project-card {
+    margin-top: 14px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.project-photos { /*All the projects EXCEPT Track That Track*/
+    height: 260px;
+    width: 340px;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+}
