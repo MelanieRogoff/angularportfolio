@@ -4,3 +4,13 @@
     font-size: 15px;
     text-align: center;
 }
+
+
+@media (min-width: 320px) {
+    .footer {
+        width: 430px;
+        margin: 0 auto;
+        position: relative;
+        left: 30px;
+    }
+}

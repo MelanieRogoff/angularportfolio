@@ -2,8 +2,23 @@
     background: linear-gradient(120deg, rgba(2,0,34,1) 0%, rgba(209,59,208,1) 19%, rgba(0,212,255,1) 100%);
     color: white;
     justify-content: space-between;
+    width: 106vw;
 }
 
 span {
     padding-right: 1rem;
+}
+
+@media (max-width: 492px) {
+    .nav-color {
+        min-width: 471px;
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 492px) {
+    .nav-color {
+        min-width: 523px;
+        font-size: 16px;
+    }
 }

@@ -14,6 +14,7 @@
     align-content: center;
     margin: 0 auto;
 }
+
 .headshot {
     height: 220px;
     width: 220px;
@@ -25,4 +26,21 @@
     color: white;
     font-size: 1.5rem;
     padding: 2px;
+}
+
+
+@media (min-width: 320px) {
+    .card {
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    .flex-container {
+        margin-left: 50px;
+       font-size: 14px;
+    }
+
+    .headshot {
+       margin-left: 80px;
+    }
 }

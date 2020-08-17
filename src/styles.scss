@@ -131,17 +131,3 @@ button::before {
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
-
-
-@media (min-width: 360px) {
-    .card {
-        background: linear-gradient(120deg, rgba(2,0,34,1) 0%, rgba(209,59,208,1) 19%, rgba(0,212,255,1) 100%);
-        color: white;
-        width: 350px;
-        margin: 0 auto;
-        padding-bottom: 20px;
-        display: inline-block;
-        word-wrap: break-word;
-    }
-    
-}

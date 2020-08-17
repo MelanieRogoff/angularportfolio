@@ -16,3 +16,13 @@ a {
     justify-content: center;
     display: flex;
 }
+
+@media (min-width: 320px) {
+   .portfolio-btn {
+       margin-left: 40px;
+   }
+.project-card {
+    margin-left: 40px;
+}
+
+}
