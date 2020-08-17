@@ -13,7 +13,7 @@
     margin: 0 auto;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 320px) and (max-width: 458px) {
     .flex-resume {
         margin-left: 30px;
     }
@@ -26,6 +26,29 @@
         margin-left: 10px;
     }
     p {
-        margin-left: 130px;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        width: 400px;
+    }
+}
+
+@media (min-width: 459px) and (max-width: 600px) {
+    .flex-resume {
+        margin-left: 30px;
+    }
+
+    .resume-photo {
+        width: 410px;
+    }
+
+    .resume-btn {
+        margin-left: 10px;
+    }
+    p {
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        width: 400px;
     }
 }

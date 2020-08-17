@@ -29,7 +29,23 @@
 }
 
 
-@media (min-width: 320px) {
+@media (min-width: 320px) and (max-width: 446px) {
+    .card {
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    .flex-container {
+        margin-left: 50px;
+       font-size: 14px;
+    }
+
+    .headshot {
+       margin-left: 80px;
+    }
+}
+
+@media (min-width: 454px) and (max-width: 540px) {
     .card {
         width: 400px;
         margin: 0 auto;

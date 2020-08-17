@@ -19,6 +19,11 @@
     margin: 0 auto;
 }
 
+.bigger {
+    font-size: 17px;
+    padding: 8px;
+}
+
 @media (min-width: 320px) {
 
     .contact-btn {
@@ -28,20 +33,13 @@
     .contact-info {
         margin: 0 auto;
         width: 400px;
-           display: flex;
+        display: flex;
         flex-direction: column;
-    }
-
-    p {
-        text-align: center;
-        position: relative;
-        left: 36px;
     }
 
     .flex-contact {
        position: relative;
        left: 40px;
-       text-align: center !important;
     }
 
 }
