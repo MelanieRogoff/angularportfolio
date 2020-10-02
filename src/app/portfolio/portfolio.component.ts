@@ -21,10 +21,10 @@ export class PortfolioComponent implements OnInit {
             img: '../assets/img/weatherapp.png'
         },
         {
-            name: 'Eat-Da-Burger!',
-            deployed: 'https://floating-gorge-77305.herokuapp.com/',
-            github: 'https://github.com/MelanieRogoff/burger',
-            img: '../assets/img/burgerapp.png'
+            name: 'Arizona Department of Health Services Selenium Tutorial',
+            deployed: 'https://github.com/MelanieRogoff/adhsselenium',
+            github: 'https://github.com/MelanieRogoff/adhsselenium',
+            img: '../assets/img/sel.gif'
         },
         {
             name: 'Track That Track',
