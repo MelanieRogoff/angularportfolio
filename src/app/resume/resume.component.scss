@@ -16,16 +16,13 @@
 
 @media (min-width: 320px) and (max-width: 458px) {
     .flex-resume {
-        margin-left: 30px;
+        margin: 0 20px 20px 30px;
     }
 
     .resume-photo {
         width: 410px;
     }
 
-    .resume-btn {
-        margin-left: 10px;
-    }
     p {
         text-align: center;
         justify-content: center;
@@ -36,16 +33,13 @@
 
 @media (min-width: 459px) and (max-width: 600px) {
     .flex-resume {
-        margin-left: 30px;
+        margin: 0 20px 20px 30px;
     }
 
     .resume-photo {
         width: 410px;
     }
 
-    .resume-btn {
-        margin-left: 10px;
-    }
     p {
         text-align: center;
         justify-content: center;
